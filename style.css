@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-top {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(117, 160, 160);
+    padding: 5px;
+    margin: 5px;
+}
+
+.circles {
+    display: flex;
+}
+
+.text1 {
+    margin-left: 60%;
+    padding-right: 20px;
+}
+
+button {
+    margin-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(115, 187, 115);
+}
+
+ion-icon {
+    translate: 2px 3px;
+}
+
+ul {
+    display: flex;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+    padding-left: 20px;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-btm {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+img {
+    height: 80px;
+    width: 10%;
+}
+
+.main {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(89, 182, 86);
+    gap: 30px;
+    flex-direction: column;
+}
+
+.boxes {
+    width: 90%;
+    height: 50vh;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid black; */
+}
+
+.box {
+    background-color: aquamarine;
+    border: 2px solid black;
+    height: 80%;
+    width: 20%;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.nav-para {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.round {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-color: rgb(122, 206, 206);
+    /* padding-right: 20px; */
+    margin-left: 28%;
+    padding-bottom: 40%;
+    margin-top: 10%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
